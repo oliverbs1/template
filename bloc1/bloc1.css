@@ -1,0 +1,44 @@
+.bloc {
+    width: 100%;
+}
+
+.white {
+    color: white;
+}
+
+#bloc1 {
+    height: 700px;
+    background: #ffffff;
+    position: relative;
+}
+
+.home {
+    height: 550px;
+    width: 65%;
+    padding: 0 0px 0 35%;
+}
+
+.cercle {
+    position: absolute;
+    top: -50px;
+    left: 10px;
+    background-color: #b8a47e;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.cercle img {
+    width: 149px;
+}
+
+#bloc1 ul {
+    position: absolute;
+    top: 30px;
+    left: 243px;
+}
+
+#bloc1 li {
+    display: inline-block;
+    padding: 0 30px;
+}
