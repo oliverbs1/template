@@ -1,0 +1,47 @@
+        .bloc {
+            width: 100%;
+        }
+        
+        #bloc6 {
+            height: 4900px;
+            background-color: red;
+            position: relative;
+        }
+        
+        .bag {
+            position: absolute;
+            top: 306px;
+            left: 155px;
+            width: 600px;
+        }
+        
+        .bigbag {
+            position: absolute;
+            top: 618px;
+            left: 646px;
+            width: 450px;
+        }
+        
+        .db {
+            position: absolute;
+            top: 996px;
+            left: 186px;
+            width: 450px;
+            z-index: 1;
+        }
+        
+        .plus {
+            position: absolute;
+            top: 1195px;
+            left: 575px;
+            width: 550px;
+        }
+        
+        #bloc6 h2 {
+            font-family: 'Montserrat', 'sans-serif';
+            font-weight: bold;
+            font-size: 50px;
+            text-align: center;
+            letter-spacing: 11px;
+            padding-top: 93px;
+        }
