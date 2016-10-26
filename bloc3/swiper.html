@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>swiper</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/css/swiper.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Work+Sans:400,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="swiper.css">
+</head>
+
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="slider1.png" alt=""></div>
+            <div class="swiper-slide"><img src="slider2.png" alt=""></div>
+            <div class="swiper-slide">
+                <img class="custom1" src="slider3.png" alt="">
+                <div class="inf">
+                    <p>$ 300.00</p>
+                    <span>BUY -></span>
+                </div>
+                <div class="border1"></div>
+                <div class="border2"></div>
+
+            </div>
+            <div class="swiper-slide "><img class="custom" src="slider4.png" alt=""></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            slidesPerView: 4,
+            centeredSlides: true,
+            paginationClickable: true,
+            spaceBetween: 30,
+            grabCursor: true
+        });
+    </script>
+</body>
+
+</html>

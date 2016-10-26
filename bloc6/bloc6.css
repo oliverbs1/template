@@ -3,8 +3,7 @@
         }
         
         #bloc6 {
-            height: 4900px;
-            background-color: red;
+            height: 1800px;
             position: relative;
         }
         
@@ -44,4 +43,174 @@
             text-align: center;
             letter-spacing: 11px;
             padding-top: 93px;
+        }
+        
+        .image img {
+            width: 120px;
+            padding-left: 30px;
+        }
+        
+        .image {
+            position: absolute;
+            top: 1557px;
+            left: 20px;
+        }
+        
+        .aa:hover {
+            background: rgba(0, 0, 0, 0.5);
+        }
+        
+        .trait1 {
+            width: 86px;
+            height: 10px;
+            border-top: 2px solid black;
+            position: absolute;
+            left: 761px;
+            top: 167px
+        }
+        
+        .quica {
+            background-color: #e1d9c9;
+            width: 364px;
+            position: absolute;
+            top: 157px;
+            left: 860px
+        }
+        
+        .quica h3 {
+            font-family: 'Montserrat', 'sans-serif';
+            font-size: 20px;
+            color: #6e6555;
+        }
+        
+        .trait2 {
+            width: 86px;
+            height: 10px;
+            border-top: 2px solid black;
+            position: absolute;
+            left: 221px;
+            top: 306px;
+            z-index: 1;
+        }
+        
+        .trait3 {
+            width: 10px;
+            height: 50px;
+            border-right: 2px solid black;
+            position: absolute;
+            left: 792px;
+            top: 353px;
+        }
+        
+        .trait4 {
+            width: 10px;
+            height: 123px;
+            border-right: 2px solid black;
+            position: absolute;
+            left: 792px;
+            top: 531px;
+            z-index: 1;
+        }
+        
+        .trait4 img {
+            width: 150px;
+            padding-left: 20px;
+        }
+        
+        .trait5 {
+            width: 10px;
+            height: 90px;
+            border-right: 2px solid black;
+            position: absolute;
+            left: 269px;
+            top: 662px;
+            z-index: 1;
+        }
+        
+        .first {
+            font-family: 'Montserrat', 'sans-serif';
+            font-weight: bold;
+            color: #969696;
+            font-size: 33px;
+            letter-spacing: 10px;
+            position: absolute;
+            top: 290px;
+            left: 169px;
+            z-index: 1;
+        }
+        
+        .second {
+            font-family: 'Montserrat', 'sans-serif';
+            font-weight: bold;
+            color: #969696;
+            font-size: 33px;
+            letter-spacing: 10px;
+            position: absolute;
+            top: 983px;
+            left: 600px;
+            z-index: 2;
+        }
+        
+        .third {
+            font-family: 'Montserrat', 'sans-serif';
+            font-weight: bold;
+            color: #969696;
+            font-size: 33px;
+            letter-spacing: 10px;
+            position: absolute;
+            top: 1180px;
+            left: 1099px;
+            z-index: 2;
+        }
+        
+        .limon {
+            width: 125px;
+            height: 165px;
+            background-color: #e3dccd;
+            position: absolute;
+            top: 1511px;
+            left: 980px
+        }
+        
+        .ombre {
+            position: absolute;
+            top: 1360px;
+            left: 335px;
+            width: 154px;
+        }
+        
+        .ombre p {
+            font-family: 'Montserrat', 'sans-serif';
+            font-size: 37px;
+            font-weight: bold;
+            letter-spacing: 11px;
+            text-shadow: 0 7px 14px grey;
+            color: white;
+            line-height: 46px;
+        }
+        
+        .texte1 {
+            position: absolute;
+            top: 409px;
+            left: 801px;
+        }
+        
+        .texte1 h3 {
+            font-family: 'Montserrat', 'sans-serif';
+            font-size: 17px;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+        
+        .texte1 p {
+            width: 300px;
+            font-size: 13px;
+            padding-top: 15px;
+            color: #8e8e8e;
+        }
+        
+        .texte2 {
+            position: absolute;
+            top: 1039px;
+            left: 801px;
         }

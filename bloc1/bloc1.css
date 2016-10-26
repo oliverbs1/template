@@ -58,6 +58,8 @@
     font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 8px;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 .texte h3 {
