@@ -108,3 +108,36 @@ body {
     top: 130px;
     right: 63px;
 }
+
+.swiper-slide:hover .border1 {
+    z-index: 20;
+    visibility: visible;
+    transition: all 1s;
+}
+
+.swiper-slide:hover .border2 {
+    z-index: 20;
+    visibility: visible;
+    transition: all 1s;
+}
+
+.swiper-slide:hover .inf {
+    z-index: 20;
+    visibility: visible;
+    transition: all 1s;
+}
+
+.border1 {
+    visibility: hidden;
+    transition: all 1s;
+}
+
+.border2 {
+    visibility: hidden;
+    transition: all 1s;
+}
+
+.inf {
+    visibility: hidden;
+    transition: all 1s;
+}
