@@ -1,106 +1,107 @@
-                                .bloc {
-                                width: 100%;
-                            }
-                            
-                            .white {
-                                color: white;
-                            }
-                            
-                            #bloc1 {
-                                height: 700px;
-                                background: #ffffff;
-                                position: relative;
-                            }
-                            
-                            .home {
-                                height: 550px;
-                                width: 65%;
-                                padding: 0 0px 0 35%;
-                            }
-                            
-                            .cercle {
-                                position: absolute;
-                                top: -50px;
-                                left: 10px;
-                                background-color: #b8a47e;
-                                width: 150px;
-                                height: 150px;
-                                border-radius: 50%;
-                            }
-                            
-                            .cercle img {
-                                width: 149px;
-                            }
-                            
-                            #bloc1 ul {
-                                position: absolute;
-                                top: 30px;
-                                left: 243px;
-                            }
-                            
-                            #bloc1 li {
-                                font-family: 'work sans', 'sans-serif';
-                                font-weight: 800;
-                                font-size: 12px;
-                                display: inline-block;
-                                padding: 0 30px;
-                            }
-                            
-                            .texte {
-                                position: absolute;
-                                top: 267px;
-                                left: 239px
-                            }
-                            
-                            .texte h2 {
-                                font-family: 'Montserrat', sans-serif;
-                                font-weight: bold;
-                                font-size: 40px;
-                                text-transform: uppercase;
-                                letter-spacing: 8px;
-                                padding-top: 15px;
-                                padding-bottom: 30px;
-                            }
-                            
-                            .texte h3 {
-                                font-family: 'Montserrat', sans-serif;
-                                font-weight: 100;
-                                font-size: 17px;
-                            }
-                            
-                            .gear {
-                                font-family: 'Montserrat', sans-serif;
-                                font-size: 16px;
-                                color: #b8a47e;
-                                padding-top: 20Px;
-                                padding-left: 129px;
-                            }
-                            
-                            li::before {
-                                content: "";
-                                padding-right: 3px;
-                                border-top: 2px solid #b8a47e;
-                                position: absolute;
-                                top: 9px;
-                                width: 30px;
-                                left: -14px;
-                                visibility: hidden;
-                                transition: all 0.4s;
-                            }
-                            
-                            li::after {
-                                content: "•";
-                                padding-left: 4px;
-                                color: #b8a47e;
-                                visibility: hidden;
-                                transition: all 0.4s;
-                            }
-                            
-                            li:hover::after {
-                                visibility: visible;
-                                transition: all ease-in-out 0.4s;
-                            }
-                            
-                            li:hover::before {
-                                visibility: visible;
-                                transition: all ease-in-out 0.4s;
+                                        .bloc {
+                                            width: 100%;
+                                        }
+                                        
+                                        .white {
+                                            color: white;
+                                        }
+                                        
+                                        #bloc1 {
+                                            height: 700px;
+                                            background: #ffffff;
+                                            position: relative;
+                                        }
+                                        
+                                        .home {
+                                            height: 550px;
+                                            width: 65%;
+                                            padding: 0 0px 0 35%;
+                                        }
+                                        
+                                        .cercle {
+                                            position: absolute;
+                                            top: -50px;
+                                            left: 10px;
+                                            background-color: #b8a47e;
+                                            width: 150px;
+                                            height: 150px;
+                                            border-radius: 50%;
+                                        }
+                                        
+                                        .cercle img {
+                                            width: 149px;
+                                        }
+                                        
+                                        #bloc1 ul {
+                                            position: absolute;
+                                            top: 30px;
+                                            left: 243px;
+                                        }
+                                        
+                                        #bloc1 li {
+                                            font-family: 'work sans', 'sans-serif';
+                                            font-weight: 800;
+                                            font-size: 12px;
+                                            display: inline-block;
+                                            padding: 0 30px;
+                                        }
+                                        
+                                        .texte {
+                                            position: absolute;
+                                            top: 267px;
+                                            left: 239px
+                                        }
+                                        
+                                        .texte h2 {
+                                            font-family: 'Montserrat', sans-serif;
+                                            font-weight: bold;
+                                            font-size: 40px;
+                                            text-transform: uppercase;
+                                            letter-spacing: 8px;
+                                            padding-top: 15px;
+                                            padding-bottom: 30px;
+                                        }
+                                        
+                                        .texte h3 {
+                                            font-family: 'Montserrat', sans-serif;
+                                            font-weight: 100;
+                                            font-size: 17px;
+                                        }
+                                        
+                                        .gear {
+                                            font-family: 'Montserrat', sans-serif;
+                                            font-size: 16px;
+                                            color: #b8a47e;
+                                            padding-top: 20Px;
+                                            padding-left: 129px;
+                                        }
+                                        
+                                        li::before {
+                                            content: "";
+                                            padding-right: 3px;
+                                            border-top: 2px solid #b8a47e;
+                                            position: absolute;
+                                            top: 9px;
+                                            width: 30px;
+                                            margin-left: -40px;
+                                            visibility: hidden;
+                                            transition: all 0.4s;
+                                        }
+                                        
+                                        li::after {
+                                            content: "•";
+                                            padding-left: 4px;
+                                            color: #b8a47e;
+                                            visibility: hidden;
+                                            transition: all 0.4s;
+                                        }
+                                        
+                                        li:hover::after {
+                                            visibility: visible;
+                                            transition: all ease-in-out 0.4s;
+                                        }
+                                        
+                                        li:hover::before {
+                                            visibility: visible;
+                                            transition: all ease-in-out 0.4s;
+                                        }

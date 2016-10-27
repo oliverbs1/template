@@ -1,113 +1,146 @@
-.bloc {
-    width: 100%;
-}
-
-.white {
-    color: white;
-}
-
-#footer {
-    height: 200px;
-    background: #ededed;
-    position: relative;
-}
-
-#footer img {
-    width: 120px;
-    padding: 20px 0 0 70px;
-}
-
-#footer ul {
-    position: absolute;
-    top: 30px;
-    left: 300px;
-}
-
-#footer li {
-    font-family: 'work sans', 'sans-serif';
-    font-weight: 800;
-    font-size: 12px;
-    display: inline-block;
-    padding: 0 30px;
-    color: #919191;
-}
-
-#footer .rs {
-    position: absolute;
-    top: 155px;
-    left: 355px;
-}
-
-#footer .rs li {
-    font-family: 'work sans', 'sans-serif';
-    font-weight: 100;
-    font-size: 12px;
-    display: inline-block;
-    padding: 0 30px;
-    color: #919191;
-}
-
-.copyright {
-    font-family: 'roboto', 'sans-serif';
-    font-weight: 100;
-    position: absolute;
-    top: 155px;
-    left: 70px;
-    font-size: 12px;
-    color: #4b4b4b;
-}
-
-.adress {
-    font-family: 'roboto', 'sans-serif';
-    width: 125px;
-    font-size: 13px;
-    height: 70px;
-    position: absolute;
-    top: 30px;
-    left: 883px;
-    color: #858585;
-    line-height: 16px;
-}
-
-.mail {
-    width: 285px;
-    height: 70px;
-    position: absolute;
-    top: 30px;
-    left: 1098px;
-}
-
-.mail p {
-    font-family: 'Montserrat', 'sans-serif';
-    font-weight: bold;
-    padding-bottom: 20px;
-}
-
-.mail span {
-    font-family: 'roboto', 'sans-serif';
-    font-size: 13px;
-    color: #a8a8a8;
-}
-
-input {
-    position: absolute;
-    top: 119px;
-    left: 1098px;
-    width: 177px;
-    height: 22px;
-}
-
-.boutton {
-    position: absolute;
-    top: 119px;
-    left: 1284px;
-    background: black;
-    width: 40px;
-    height: 28px;
-}
-
-.boutton p {
-    color: white;
-    text-align: center;
-    padding-top: 6px;
-}
+                    .bloc {
+                    width: 100%;
+                }
+                
+                .white {
+                    color: white;
+                }
+                
+                #footer {
+                    height: 200px;
+                    background: #ededed;
+                    position: relative;
+                }
+                
+                #footer img {
+                    width: 120px;
+                    padding: 20px 0 0 70px;
+                }
+                
+                #footer ul {
+                    position: absolute;
+                    top: 30px;
+                    left: 300px;
+                }
+                
+                #footer li {
+                    font-family: 'work sans', 'sans-serif';
+                    font-weight: 800;
+                    font-size: 12px;
+                    display: inline-block;
+                    padding: 0 30px;
+                    color: #919191;
+                }
+                
+                #footer li:hover {
+                    color: black;
+                }
+                
+                #footer .rs {
+                    position: absolute;
+                    top: 155px;
+                    left: 355px;
+                }
+                
+                #footer .rs li {
+                    font-family: 'work sans', 'sans-serif';
+                    font-weight: 100;
+                    font-size: 12px;
+                    display: inline-block;
+                    padding: 0 30px;
+                    color: #919191;
+                }
+                
+                .copyright {
+                    font-family: 'roboto', 'sans-serif';
+                    font-weight: 100;
+                    position: absolute;
+                    top: 155px;
+                    left: 70px;
+                    font-size: 12px;
+                    color: #4b4b4b;
+                }
+                
+                .adress {
+                    font-family: 'roboto', 'sans-serif';
+                    width: 125px;
+                    font-size: 13px;
+                    height: 70px;
+                    position: absolute;
+                    top: 30px;
+                    left: 883px;
+                    color: #858585;
+                    line-height: 16px;
+                }
+                
+                .mail {
+                    width: 285px;
+                    height: 70px;
+                    position: absolute;
+                    top: 30px;
+                    left: 1098px;
+                }
+                
+                .mail p {
+                    font-family: 'Montserrat', 'sans-serif';
+                    font-weight: bold;
+                    padding-bottom: 20px;
+                }
+                
+                .mail span {
+                    font-family: 'roboto', 'sans-serif';
+                    font-size: 13px;
+                    color: #a8a8a8;
+                }
+                
+                input {
+                    position: absolute;
+                    top: 119px;
+                    left: 1098px;
+                    width: 177px;
+                    height: 22px;
+                }
+                
+                .boutton {
+                    position: absolute;
+                    top: 119px;
+                    left: 1284px;
+                    background: black;
+                    width: 40px;
+                    height: 28px;
+                }
+                
+                .boutton p {
+                    color: white;
+                    text-align: center;
+                    padding-top: 6px;
+                }
+                
+                li::before {
+                    content: "";
+                    padding-right: 3px;
+                    border-top: 2px solid #b8a47e;
+                    position: absolute;
+                    top: 9px;
+                    width: 30px;
+                    left: -14px;
+                    visibility: hidden;
+                    transition: all 0.4s;
+                }
+                
+                li::after {
+                    content: "•";
+                    padding-left: 4px;
+                    color: #b8a47e;
+                    visibility: hidden;
+                    transition: all 0.4s;
+                }
+                
+                li:hover::after {
+                    visibility: visible;
+                    transition: all ease-in-out 0.4s;
+                }
+                
+                li:hover::before {
+                    visibility: visible;
+                    transition: all ease-in-out 0.4s;

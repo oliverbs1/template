@@ -214,3 +214,27 @@
             top: 1039px;
             left: 801px;
         }
+        
+        .texte3 {
+            position: absolute;
+            top: 799px;
+            left: 272px;
+        }
+        
+        .texte3 p {
+            width: 293px;
+            font-size: 13px;
+            padding-top: 15px;
+            padding-left: 117px;
+            color: #8e8e8e;
+        }
+        
+        .aa {
+            width: 377px;
+            height: 18px;
+            background-color: #e1d9c9;
+            position: absolute;
+            top: 809px;
+            left: 268px;
+            z-index: -1;
+        }

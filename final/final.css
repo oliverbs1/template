@@ -79,6 +79,47 @@
     padding-left: 129px;
 }
 
+li::before {
+    content: "";
+    padding-right: 3px;
+    border-top: 2px solid #b8a47e;
+    position: absolute;
+    top: 9px;
+    width: 30px;
+    margin-left: -40px;
+    visibility: hidden;
+    transition: all 0.4s;
+}
+
+li::after {
+    content: "•";
+    padding-left: 4px;
+    color: #b8a47e;
+    visibility: hidden;
+    transition: all 0.4s;
+}
+
+li:hover::after {
+    visibility: visible;
+    transition: all ease-in-out 0.4s;
+}
+
+li:hover::before {
+    visibility: visible;
+    transition: all ease-in-out 0.4s;
+}
+
+.scroll img {
+    position: absolute;
+    top: 209px;
+    left: 81px;
+    width: 15px;
+}
+
+.scroll nav {
+    display: block;
+}
+
 
 /* bloc2 css */
 
@@ -409,6 +450,7 @@
     font-family: 'Montserrat', 'sans-serif';
     font-weight: bold;
     font-size: 50px;
+    color: black;
     text-align: center;
     letter-spacing: 11px;
     padding-top: 93px;
@@ -584,6 +626,30 @@
     left: 801px;
 }
 
+.texte3 {
+    position: absolute;
+    top: 799px;
+    left: 272px;
+}
+
+.texte3 p {
+    width: 293px;
+    font-size: 13px;
+    padding-top: 15px;
+    padding-left: 117px;
+    color: #8e8e8e;
+}
+
+.aa {
+    width: 377px;
+    height: 18px;
+    background-color: #e1d9c9;
+    position: absolute;
+    top: 809px;
+    left: 268px;
+    z-index: -1;
+}
+
 
 /* footer css */
 
@@ -691,4 +757,13 @@ input {
     color: white;
     text-align: center;
     padding-top: 6px;
+}
+
+#footer li:hover {
+    color: black;
+}
+
+#footer .rs li:hover {
+    color: black;
+    font-weight: bold;
 }
